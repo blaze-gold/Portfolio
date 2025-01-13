@@ -60,14 +60,6 @@
   },
   "description": "This is a portfolio template template created by [Corey Chiu](https://coreychiu.com).",
   "main": "postcss.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/5shine1/Portfolio.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/5shine1/Portfolio/issues"
-  },
-  "homepage": "https://github.com/5shine1/Portfolio#readme"
+  "license": "ISC"
 }
