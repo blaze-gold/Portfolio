@@ -11,7 +11,7 @@ export const headline =
 export const introduction =
   'Skilled Full Stack developer with over 8 years of experience building dynamic web applications and scalable architectures. Proficient in transforming complex requirements into intuitive designs, collaborating with teams to deliver high-quality products. Passionate about combining creativity and technical expertise to build exceptional digital experiences.'
 export const email = 'chenstar125@gmail.com'
-export const githubUsername = '5shine1'
+export const githubUsername = 'jusdy'
 
 // about page
 export const aboutMeHeadline =
@@ -41,7 +41,7 @@ export const socialLinks: Array<SocialLinkType> = [
   {
     name: 'Github',
     icon: 'github',
-    href: 'https://github.com/5shine1/Portfolio',
+    href: 'https://github.com/jusdy',
   },
 ]
 

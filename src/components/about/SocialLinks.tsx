@@ -8,7 +8,7 @@ export default function SocialLinks() {
   return (
     <div className="border-t ">
       <Link
-        href={`https://github.com/5shine1/Portfolio`}
+        href={`https://github.com/jusdy`}
         target="_blank"
         className="text-md group ml-3 flex flex-row items-center justify-start font-medium transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
       >
