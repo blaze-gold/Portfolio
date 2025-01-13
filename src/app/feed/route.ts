@@ -1,8 +1,8 @@
-import assert from 'assert'
-import * as cheerio from 'cheerio'
+// import assert from 'assert'
+// import * as cheerio from 'cheerio'
 import { Feed } from 'feed'
 import { name, email } from '@/config/infoConfig'
-import { getBlogBySlug } from '@/lib/blogs'
+// import { getBlogBySlug } from '@/lib/blogs'
 import { promises as fs } from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -21,7 +21,7 @@ export async function GET(req: Request) {
 
   let feed = new Feed({
     title: author.name,
-    description: name + '\'s blog',
+    description: name + "'s blog",
     author,
     id: siteUrl,
     link: siteUrl,
@@ -34,8 +34,10 @@ export async function GET(req: Request) {
   })
 
   // 直接读取博客文件
-  const blogFiles = await fs.readdir(path.join(process.cwd(), 'src/content/blog'))
-  const mdxFiles = blogFiles.filter(file => file.endsWith('.mdx'))
+  const blogFiles = await fs.readdir(
+    path.join(process.cwd(), 'src/content/blog'),
+  )
+  const mdxFiles = blogFiles.filter((file) => file.endsWith('.mdx'))
 
   for (let file of mdxFiles) {
     const slug = file.replace(/\.mdx$/, '')
