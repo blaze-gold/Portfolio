@@ -40,7 +40,7 @@ export const projects: Array<ProjectItemType> = [
       href: 'redbubble.com',
       label: 'Redbubble',
     },
-    logo: '/images/icon/Redbubble.png',
+    logo: '/images/icon/redbubble.png',
     category: ['Website'],
     techStack: ['React.js', 'PWA', 'WebPack'],
     tags: ['eCommerce'],
