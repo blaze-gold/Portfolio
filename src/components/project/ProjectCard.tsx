@@ -2,10 +2,10 @@
 
 import { ArrowRightIcon, HashIcon } from 'lucide-react'
 import Image from 'next/image'
-import { ArrowUpRight } from '@phosphor-icons/react'
+// import { ArrowUpRight } from '@phosphor-icons/react'
 import { ProjectItemType } from '@/config/infoConfig'
 import { utm_source } from '@/config/siteConfig'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export function ProjectCard({
   project,
@@ -14,7 +14,7 @@ export function ProjectCard({
   project: ProjectItemType
   titleAs?: keyof JSX.IntrinsicElements
 }) {
-  const utmLink = `https://${project.link.href}?utm_source=${utm_source}`
+  // const utmLink = `https://${project.link.href}?utm_source=${utm_source}`
   let Component = titleAs ?? 'h2'
   return (
     <li className="group relative flex h-full flex-col items-start">
@@ -60,7 +60,7 @@ export function ProjectCard({
             </div>
           )}
         </div>
-        <Link
+        {/* <Link
           href={utmLink}
           target="_blank"
           rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export function ProjectCard({
             weight="duotone"
             className="absolute right-4 top-4 h-4 w-4 group-hover:cursor-pointer group-hover:text-primary"
           />
-        </Link>
+        </Link> */}
       </div>
     </li>
   )

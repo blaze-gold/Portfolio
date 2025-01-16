@@ -20,22 +20,21 @@ export type ProjectItemType = {
 // projects
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Opal HealthCare',
+    name: 'Customer-relationship Management System',
     description:
-      "E nhance its internal management portal for care staff, administrators, and residents' families.",
+      'I developed a web platform that is a wrapper over the Microsoft Dynamics CRM system written using ASP.NET MVC, jQuery, Entity Framework, MS SQL, Windows Service, Quartz.NET.',
     link: {
-      href: 'opalhealthcare.com.au',
-      label: 'Opal HealthCare',
+      href: '/',
+      label: 'Customer-relationship Management System',
     },
     logo: '/images/icon/opal.png',
     category: ['Website'],
-    techStack: ['PHP', 'Bootstrap', 'Shadcn/UI'],
-    tags: ['Health Insurance'],
+    tags: ['Customer-relationship'],
   },
   {
-    name: 'Redbubble',
+    name: 'Mining Work Management Project',
     description:
-      'Redbubble uses React.js for its fast product loading and smooth interactions, making the shopping process seamless.',
+      'I built a management project aimed at arranging employees work schedules. I developed it with ASP.NET Web API on the back end and Next JS and React on the front end. I used RavenDB to store data and DevExpress to generate multiple reports. ',
     link: {
       href: 'redbubble.com',
       label: 'Redbubble',
@@ -43,36 +42,16 @@ export const projects: Array<ProjectItemType> = [
     logo: '/images/icon/red.png',
     category: ['Website'],
     techStack: ['React.js', 'PWA', 'WebPack'],
-    tags: ['eCommerce'],
+    tags: ['Management'],
   },
   {
-    name: 'Downeast Capital',
+    name: 'Healthcare Project',
     description:
-      'Downeast Capital is to streamline investment management, improve client interactions, and provide better reporting tools for business transitions and growth.',
+      'I built a healthcare project aimed at arranging remote treatments. The system contained web service and mobile apps for both Android and iOS. The technology stack used included: ASP.NET MVC, ASP.NET Web API, HTML, CSS, JavaScript, jQuery, and Azure Queue that was used to unload the system.',
     link: { href: 'downeastcapital.com', label: 'Downeast Capital' },
     logo: '/images/icon/downeast.svg',
     category: ['Website'],
     techStack: ['Vue.js', 'ASW3', 'WebPack'],
-    tags: ['Mortgage'],
-  },
-  {
-    name: 'Turn2Me',
-    description:
-      'Turn2Me.ie wanted to improve communication between clients and therapists by implementing a secure, real-time messaging system.',
-    link: { href: 'turn2me.ie', label: 'Turn2Me' },
-    logo: '/images/icon/turn2me.png',
-    category: ['Website'],
-    techStack: ['PHP', 'WordPress', 'MySQL'],
-    tags: ['Real-time messaing system'],
-  },
-  {
-    name: 'Eatry ',
-    description:
-      'Eatry is an online food vendor marketplace and eCommerce solution.',
-    link: { href: 'www.eatry.au', label: 'Eatry ' },
-    logo: '/images/icon/logo512.png',
-    category: ['Website'],
-    techStack: ['React', 'TailwindCSS', 'PWA'],
-    tags: ['Marketplace'],
+    tags: ['Healthcare'],
   },
 ]
